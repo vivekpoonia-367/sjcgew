@@ -1,0 +1,107 @@
+:root {
+    /* font-size */
+    --fs-sm: 18px;
+    --fs-md: 20px;
+    --fs-lg: 24px;
+    --fs-xl: 36px;
+    --fs-2xl: 48px;
+    --fs-2xxl: 64px;
+    
+    /* font-weight */
+    --fw-sm-300: 300;
+    --fw-md-400: 400;
+    --fw-lg-500: 500;
+    --fw-xl-600: 600;
+    --fw-2xl-700: 700;
+
+    /* font-family */
+    --ff-poppin:  "Poppins", sans-serif !important;
+
+}
+
+.fs-sm-600{
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-xl-600);
+    font-family: var( --ff-poppin);
+
+}
+.fs-sm-700{
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-2xl-700);
+    font-family: var( --ff-poppin);
+
+}
+.fs-sm-500{
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-lg-500);
+    font-family: var( --ff-poppin);
+
+}
+.fs-md-500{
+    font-size: var(--fs-md);
+    font-weight: var(--fw-lg-500);
+    font-family: var( --ff-poppin);
+
+}
+.fs-xl-500{
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-lg-500);
+    font-family: var( --ff-poppin);
+
+}
+.fs-xl-700{
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-2xl-700);
+    font-family: var( --ff-poppin);
+
+}
+.fs-2xl-700{
+    font-size: var(--fs-2xl);
+    font-weight: var(--fw-2xl-700);
+    font-family: var( --ff-poppin);
+
+}
+.fs-2xl-500{
+    font-size: var(--fs-2xl);
+    font-weight: var(--fw-lg-500);
+    font-family: var( --ff-poppin);
+
+}
+
+.fs-sm-400{
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-md-400);
+    font-family: var( --ff-poppin);
+}
+.fs-xl-500{
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-lg-500);
+    font-family: var( --ff-poppin);
+}
+.fs-lg-500{
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-lg-500);
+    font-family: var( --ff-poppin);
+}
+.fs-lg-400{
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-md-400);
+    font-family: var( --ff-poppin);
+}
+.fs-lg-700{
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-2xl-700);
+    font-family: var( --ff-poppin);
+}
+.fs-2xxl-700{
+    font-size: var(--fs-2xxl);
+    font-weight: var(--fw-2xl-700);
+    font-family: var( --ff-poppin);
+}
+
+@media (min-width:1400px) {
+    
+    /* .font-size{
+        font-size: 36px;
+    } */
+} 
